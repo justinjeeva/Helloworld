@@ -1,0 +1,7 @@
+image: open-jdk8:latest
+
+build1:
+    Stage: build
+    Script:
+        - echo "i am testing the build"
+        - mvn clean install
