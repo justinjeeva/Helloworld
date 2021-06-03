@@ -1,6 +1,9 @@
 image: open-jdk8:latest
 
-build1:
+Stages:
+    - build
+
+build:
     Stage: build
     Script:
         - echo "i am testing the build"
