@@ -1,6 +1,6 @@
 image: open-jdk8:latest
 
-Stages:
+Stage:
     - build
 
 build:
