@@ -1,8 +1,5 @@
 image: open-jdk8:latest
 
-Stage:
-    - build
-
 build:
     Stage: build
     Script:
