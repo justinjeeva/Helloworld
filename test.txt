@@ -1,3 +1,3 @@
 Hi
 This is a test file.
-I am testing the Code Pipeline flow.
+I am testing the GitHub Actions Pipeline flow.
