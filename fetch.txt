@@ -1,1 +1,1 @@
-This is to test git fetch command.
+This is to test git fetch command and I am testing it via command prompt.
