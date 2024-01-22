@@ -10,3 +10,5 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v1
+      - name: build with maven
+        run: mvn clean install
