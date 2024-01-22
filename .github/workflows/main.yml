@@ -1,5 +1,5 @@
 name : 'Test Workflow'
-run-name: ${{  user_name }} is learning the Github Actions
+run-name: ${{  github.actor }} is learning the Github Actions
 
 on :
   push:
@@ -13,3 +13,5 @@ jobs:
         uses: actions/checkout@v1
       - name: build with maven
         run: mvn clean install -Dmaven.test.skip=true
+      - name: user name
+        run: echo $user_name
