@@ -28,5 +28,6 @@ jobs:
       - name: docker build and push docker image
         uses: docker/build-push-action@v1
         with:
+          context: .
           push: true
           tags: v1.0
