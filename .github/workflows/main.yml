@@ -26,7 +26,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           
       - name: docker build and push docker image
-        uses: docker/push-action@v1
+        uses: docker/build-push-action@v1
         with:
           push: true
           tags: user/app:v1.0
