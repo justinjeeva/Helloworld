@@ -14,4 +14,4 @@ jobs:
       - name: build with maven
         run: mvn clean install -Dmaven.test.skip=true
       - name: user name
-        run: echo $user_name
+        run: echo $USER_NAME
