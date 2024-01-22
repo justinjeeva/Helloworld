@@ -14,9 +14,7 @@ jobs:
         
       - name: build with maven
         run: mvn clean install -Dmaven.test.skip=true
-        
-      - name: user name
-        run: USER_NAME
+
   docker:
     needs: build
     runs-on: ubuntu-latest
