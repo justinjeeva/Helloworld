@@ -1,6 +1,6 @@
 FROM openjdk:8
 COPY . /src/java
-WORKDIR /src/java
-RUN ["javac", "JavaHelloWorld.java"]
+WORKDIR /src
+RUN ["javac", "HelloWorld.java"]
 ENTRYPOINT ["java","JavaHelloWorld"]
 
