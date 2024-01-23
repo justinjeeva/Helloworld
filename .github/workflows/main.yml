@@ -1,10 +1,8 @@
 name : 'Test Workflow'
 run-name: ${{  github.actor }} is learning the Github Actions
 
-on :
-  push:
-    branches:
-      - master
+on: workflow_dispatch
+  
 jobs:
   build:
     runs-on: ubuntu-latest 
