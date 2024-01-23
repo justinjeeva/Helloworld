@@ -26,8 +26,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           
       - name: docker build and push docker image
-        uses: docker/build-push-action@v1
-        with:
-          context: .
-          push: true
-          tags: v1.0
+        run: docker build -t justinjeeva:v1.0 .
